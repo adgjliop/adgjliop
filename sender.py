@@ -45,7 +45,7 @@ def send_verification_email(email):
     """Send an email with a verification code."""
     try:
         # Retrieve environment variables
-        smtp_server = 'smtp.gmail.com'
+        smtp_server = 'smtp-relay.brevo.com'
         smtp_port = 587
         smtp_username = os.environ['SMTP_USERNAME']
         smtp_password = os.environ['SMTP_PASSWORD']
